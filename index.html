@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>
+    ArmaLosPares
+  </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" contenet="width=divice-width, initia-scale=1.0">
+  <link rel="stylesheet" href="Index.css">
+
+</head>
+<body>
+
+  <header id="paginaPrincipal">
+
+    <button class="historia" id="modoHistoria">
+      Modo Historia
+    </button>
+    <div id="add"></div>
+
+
+
+  </header>
+  <div class="mundo" id="historia" onclick="agg()"></div>
+  <!--aqui van los niveles-->
+
+  <article class="fondo" id="fondo">
+          
+    <section id="tres">
+      <div id="flecha">
+        <img src="img/flecha.png" alt="">
+      </div>
+      <div class="punto">
+        <span id="puntos"></span>
+      </div>
+    </section>
+  </article>
+
+  <section id="mensajeFinal" class="juegoGamado">
+    <div id="" class="centrarFelicitaciones">
+      <span id="alGanar">
+        Felizidades
+        <br>
+        has
+        <br>
+        ganado
+      </span>
+    </div>
+
+    <div id="botones">
+      <button class="boton"
+        onclick="atras()">
+        salir
+      </button>
+      <button name="nulo"
+        class="boton" onclick="sigNivel(n)"
+        id="sigNivel">
+        continuar
+      </button>
+    </div>
+  </section>
+  
+  <script src="script/Acertó.js"></script>
+
+  <script src="script/puntos.js"></script>
+
+  <script src="script/validaciones.js"></script>
+
+  <script src="script/palabras.js"></script>
+  
+  <script src="script/agregar.js"></script>
+  
+
+  <script src="script/niveles.js"></script>
+  
+  <script src="script/resDeEv.js"></script>
+
+  <script src="script/onLoad.js"></script>
+
+</body>
+</html>

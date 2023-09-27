@@ -1,0 +1,158 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+header{
+    background:green;
+    color:white;
+    height:100%;
+    text-align:center;
+}
+
+.historia{
+    margin-top:150px;
+    border-radius:10px;
+    background:blue;
+    width:70%;
+    height:40px;
+    display:inline-block;
+}
+.mundo{
+    width:100%;
+    background:orange;
+    /*display:none*/
+}
+
+
+.mundo button{
+    width:50px;
+    height:50px;
+    background:red;
+    border-radius:15px;
+    border-color:white;
+}
+
+.uno{
+    margin-left:80%;
+}
+
+.dos{
+    margin-left:40%;
+}
+.tres{
+    margin-right:50%;
+}
+
+/*juegos*/
+
+
+.fondo{
+    background:black;
+    height:100%;
+    display:none;
+}
+#dos{
+    display:none;
+}
+#nv2{
+    display:none;
+}
+#nivel3{
+    display:none;
+}
+#tres{
+    height:10%;
+    background:red;
+    color:white;
+    width: 100%;
+    position: relative;
+}
+
+#tres div{
+  position: absolute;
+  top:30%;
+  text-align: center;
+}
+
+#tres img{
+  width: 100%;
+
+}
+#tres div{
+  display: inline-block;
+  width: 20px;
+}
+.punto{
+  right: 0px;
+}
+
+.uno1{
+  display: none;
+}
+
+.uno1 div{
+    display: table-cell;
+    vertical-align: middle;
+    text-align-last: center;
+}
+
+.uno1 div{
+    border:inset grey 5px;
+    width:40%;
+    height:10%;
+    display:inline-table;
+    margin:3%;
+    border-radius:15%;
+    
+}
+
+
+.uno1 div:hover{
+    border:outset;
+}
+
+ p{
+    display:table-cell ;
+    vertical-align:middle;
+    width:100%;
+    color:white;
+    text-align:center ;
+    font-weight:700;
+}
+
+#nivel3{
+    display:;
+}
+
+/*Ganar*/
+#mensajeFinal{
+    display:none;
+    background:white;
+    color:black;
+    width:100%;
+    height:100%;
+    position: absolute;
+}
+
+.centrarFelicitaciones{
+    display:inline-table;
+    width:50%;
+    height:50%;
+    border:solid;
+    margin-left:25%;
+    margin-top:25%;
+}
+#alGanar{
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center ;
+}
+#botones{
+    margin-left:25%;
+}
+.boton{
+    width:80px;
+    height:50px;
+}
+
